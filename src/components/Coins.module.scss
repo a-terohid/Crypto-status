@@ -1,0 +1,68 @@
+$black: #1a1a2e;
+$darkBlue: #16213e;
+$blue: #0f3460;
+$pink: #e94560;
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Kalam', cursive;
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 40px;
+  font-size: 16px;
+  color: #f6f6f6;
+  background-color: $blue;
+  width: 800px;
+  margin: 1.2rem auto;
+  border-radius: 20px;
+  // border-bottom: 1px solid silver;
+}
+
+.container:last-child {
+  border: none;
+}
+
+.image {
+  width: 60px;
+  border-radius: 50%;
+}
+
+.name {
+  width: 140px;
+  font-size: 20px;
+  margin-left: 15px;
+  text-align: left;
+  font-weight: bold;
+  
+}
+
+.symbol {
+  text-align: left;
+  width: 100px;
+}
+
+.currentPrice {
+  text-align: left;
+  width: 100px;
+}
+
+.greenPriceChange,
+.redPriceChange {
+  width: 100px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.redPriceChange {
+  color: rgb(255, 38, 38);
+}
+
+.greenPriceChange {
+  color: rgb(0, 204, 0);
+}
