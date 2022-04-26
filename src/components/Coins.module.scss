@@ -18,7 +18,7 @@ $pink: #e94560;
   font-size: 16px;
   color: #f6f6f6;
   background-color: $blue;
-  width: 800px;
+  width: 60vw;
   margin: 1.2rem auto;
   border-radius: 20px;
 }
@@ -64,4 +64,38 @@ $pink: #e94560;
 
 .greenPriceChange {
   color: rgb(0, 204, 0);
+}
+
+@media ( min-width: 768px ) and ( max-width: 1200px ){
+
+  .container{
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+  .image{
+    width: 50px ;
+  }
+
+  .name{
+    margin-left: 10px;
+    font-size: 15px;
+  }
+
+}
+
+@media ( max-width: 768px ){
+
+  .image{
+    width: 35px;
+  }
+
+  .name{
+    font-size: 10px;
+    margin-right: -5px;
+  }
+
+  .container{
+    font-size: 8px;
+  }
 }

@@ -12,6 +12,8 @@ $pink: #e94560;
 .Crypto {
     background-color: $black;
     padding: 2px;
+    min-height: calc( 100vh );
+    
 }
 
 .Navbar {
@@ -52,4 +54,21 @@ $pink: #e94560;
 .title{
     color: #f6f6f6;
     margin: 1rem 2.5rem;
+}
+
+@media ( max-width: 768px ){
+
+    .Navbar{
+        
+        h1{
+            font-size: 2rem;
+            font-weight: bolder;
+        }
+
+    }
+
+    .title{
+        font-size: 1.8rem;
+    }
+
 }
